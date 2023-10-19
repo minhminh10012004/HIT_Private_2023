@@ -1,0 +1,61 @@
+body{
+    padding: 10px;
+    background-color: azure;
+    font-size: 18px;
+}
+
+h1{
+    color: rgb(227, 45, 127);
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#name{
+    color: red;
+}
+h2{
+    color:rgb(255, 255, 255);
+    background-color:darkorchid;
+}
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+   
+}
+.t-head{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+.t-color{
+    background-color:rgb(240, 123, 240);
+}
+td{
+    width: 50px;
+}
+.stt{
+    text-align: center;
+}
+
+  
+.one{
+    font-style: italic;
+    color: brown;
+
+}
+.sao{
+    color:rgb(43, 0, 255);
+}
+.foot{
+    background-color:plum;
+    color: rgb(51, 122, 193);
+}
+a{
+    color: rgb(191, 234, 107);
+}
+        
