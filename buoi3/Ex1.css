@@ -1,58 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: block;
+  display: block;
 }
 
 .HIT14 {
-    display: flex;
-    justify-content: center;
-    /*căn giữa theo chiều ngang*/
-    align-items: center;
-    /*căn giữa theo chiều dọc */
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  /*căn giữa theo chiều ngang*/
+  align-items: center;
+  /*căn giữa theo chiều dọc */
+  height: 100vh;
 }
 
 .warp-layout-h1,
 .warp-layout-h2 {
-    display: flex;
+  display: flex;
 }
 
 .warp-layout-item {
-    height: 50px;
-    width: 50px;
-    font-weight: bold;
-    background-color: orange;
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+  background-color: orange;
 }
 
 .warp-layout-h2 {
-    width: 50px;
-    height: 50px;
-    background-color: orange;
+  width: 50px;
+  height: 50px;
+  background-color: orange;
 }
 
 .wrap-layout-i {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .warp-layout-t-left {
-    margin-left: 50px;
-    height: 50px;
-    width: 50px;
-    background-color: orange;
-    margin-bottom: 200px;
+  margin-left: 50px;
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  margin-bottom: 200px;
 }
 
 .wrap-layout-t-right {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 
 .wrap-layout-4-left {
-    margin-left: 50px;
-    margin-bottom: 100px;
+  margin-left: 50px;
+  margin-bottom: 100px;
 }
