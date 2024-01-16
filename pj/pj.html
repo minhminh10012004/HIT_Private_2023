@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start Here - Pinch of Yum</title>
+    <link rel="stylesheet" href="pj.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;800&family=Raleway:wght@500;600;800&family=Inter:wght@300;400;500;900&family=Raleway:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="border-b relative">
+      <nav class="nav">
+        <a href="https://pinchofyum.com/">
+          <img src="./anh/logo.png" alt="Pinch of Yum Logo" />
+        </a>
+
+        <!-- Menu điều hướng -->
+        <ul class="menu sm:flex sm:mt-2 shadow-md md:shadow-none">
+          <!-- Các liên kết điều hướng -->
+          <li><a href="https://pinchofyum.com">HOME</a></li>
+          <li><a href="https://pinchofyum.com/about">ABOUT</a></li>
+          <li><a href="https://pinchofyum.com/recipes">RECIPES</a></li>
+          <li><a href="https://pinchofyum.com/start-here">START HERE</a></li>
+          <!-- Nút tìm kiếm -->
+          <button class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </ul>
+      </nav>
+    </header>
+    <section class="bg-gray-200">
+      <div class="container">
+        <div class="image-container">
+          <img src="./anh/anh1.webp" alt="Welcome Image" />
+        </div>
+        <div class="content">
+          <h1>Welcome to Pinch of Yum</h1>
+          <h3 class="talk-food">
+            LET’S TALK FOOD, <span class="custom-font">shall we?</span>
+          </h3>
+          <p>Well, we hope that’s why you’re here. Our recipes are designed for real, actual, every day life, and we try to focus on real foods and healthy recipes (which honestly means a lot of different things to us, including the perfect chocolate chip cookie and cheese on cheese on cheese, because health is all about balance, right?).</p>
+          <p>This is the place to find those recipes — everything from our most popular, to meal prep, to Instant Pot recipes, or if you just, like, have some sad greens in your fridge to use up and you need some inspiration.</p>
+          <p>You’re here! Have fun. We hope you find something (many things) you love.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-white">
+      <div class="flex section-left">
+          <div class="social-section">
+              <h3 class="Follow Us">Follow Us</h3>
+              <a target="_blank" class="social-link" href="https://www.instagram.com/pinchofyum" rel="noopener">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a target="_blank" class="social-link" href="https://www.pinterest.com/pinchofyum/_created/" rel="noopener">
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
+              <a target="_blank" class="social-link" href="https://www.facebook.com/pinchofyum" rel="noopener">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a target="_blank" class="social-link" href="https://twitter.com/pinchofyum" rel="noopener">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+          </div>
+      </div>
+      <div class="flex section-right">
+        <h3 class="talk-food">
+          <span class="custom-font">Singup</span> FOR EMAIL UPDATES
+        </h3>
+
+        <form action="https://app.convertkit.com/forms/1401308/subscriptions" class="signup-form" method="post" data-sv-form="1401308" data-uid="f83b053758" data-format="inline" data-version="6">
+          <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+          <div data-element="fields" class="signup-fields formkit-fields">
+              <div class="formkit-field">
+                  <input type="text" class="formkit-input" aria-label="Họ" name="fields[first_name]" placeholder="First name">
+              </div>
+              <div class="formkit-field">
+                  <input type="text" class="formkit-input" name="email_address" aria-label="Email" placeholder="Email" required="">
+              </div>
+              <button data-element="submit" class="formkit-submit formkit-submit-button">
+                  <div class="formkit-spinner"><div></div><div></div><div></div></div>
+                  <span class="button-text">GO</span>
+              </button>
+          </div>
+      </form>
+      
+    </div>
+    
+  </section>
+  <section class="search-section">
+    <h1 class="section-title">Search our Recipes</h1>
+    <form method="GET" action="https://pinchofyum.com" class="search-form" role="search">
+      <label>
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.5 18.5">
+        </svg>
+      </label>
+      <input class="search-input" name="s" type="search" aria-label="Search our recipes" placeholder="Type pasta, vegan, healthy, etc.">
+      <button class="hidden">Search</button>
+    </form>
+    <p class="search-hint">Or browse our favorites below</p>
+  </section>
+  <div class="bg-gray-200-PI">
+    <section class="recipe-section">
+      <header class="recipe-header">
+        <i class="fa-solid fa-heart-pulse"></i>
+          <h2 class="recipe-title">Healthy Recipes</h2>
+      </header>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Phần tử 1 -->
+        <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/soup1.jpg" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">The Best Detox Crockpot Lentil Soup</a></h2>
+            <p>Detox Crockpot Lentil Soup – a clean and simple soup made with onions, garlic, carrots, olive oil, squash, and LENTILS! Super healthy and easy to make.</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+
+         <!-- Phần tử 2 -->
+         <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/soup2.webp" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/5-minute-magic-green-sauce">5 Minute Magic Green Sauce</a></h2>
+            <p>5 Minute Magic Green Sauce – SO AWESOME. Made with easy ingredients like avocado, olive oil, cilantro, lime, garlic, and parsley! Vegan.</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+
+         <!-- Phần tử 3 -->
+         <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/soup3.webp" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/creamy-thai-sweet-potato-curry">Creamy Thai Sweet Potato Curry</a></h2>
+            <p>Creamy Thai Sweet Potato Curry – packed with nutrition! Our favorite easy, healthy, winter comfort food recipe.</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+         <!-- Phần tử 4 -->
+         <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/soup4.jpg" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/chopped-thai-chicken-salad">Chopped Thai Chicken Aalad</a></h2>
+            <p>This simple chopped Thai chicken salad has BIG flavors – peanut, lime, soy, chili, cilantro. Topped with a homemade peanut dressing! Healthy and fresh.</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+      
+      </div>
+    </section>
+
+    <section class="recipe-section">
+      <header class="recipe-header">
+        <i class="fa-solid fa-bowl-food"></i>
+          <h2 class="recipe-title">MEAL PREP RECIPES</h2>
+      </header>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Phần tử 1 -->
+        <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/no1.jpg" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/15-minute-meal-prep-sesame-noodle-bowls">Sesame Noodle Bowls</a></h2>
+            <p>Meal Prep Sesame Noodle Bowls! Fork-twirly noodles, an easy creamy sesame sauce, perfect browned chicken, and all the veg. YUM.</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+
+         <!-- Phần tử 2 -->
+         <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/no2.jpg" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/15-minute-meal-prep-breakfast-sandwiches">Meal Prep Breakfast Sandwiches</a></h2>
+            <p>Breakfast Sandwiches – meal prep style! Bake up your eggs on a sheet pan with baand spinach, tuck them into english muffin with some cheese, and stash them in the freezer for the week. SO GOOD..</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+
+         <!-- Phần tử 3 -->
+         <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/no3.jpg" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/15-minute-meal-prep-cauliflower-fried-rice-with-crispy-tofu">Cauliflower Fried Rice With Crispy Tofu</a></h2>
+            <p>Cauliflower Fried Rice! Healthy + clean fried rice made with cauliflower, carrots, onions, garlic, eggs, sesame oil and THE BEST baked crispy tofu..</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+         <!-- Phần tử 4 -->
+         <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/no4.jpg" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/15-minute-meal-prep-cilantro-lime-chicken-and-lentils">Cilantro Lime Chicken And Lentils</a></h2>
+            <p>15 Minute Meal Prep Cilantro Lime Chicken and Lentils! The BEST easy protein powerhouse meal prep. Just 15 mins of prep and totally hands-off cooking!</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="video-section ">
+      <header class="video-header ">
+        <svg class="video-icon " role="presentation" aria-hidden="true"><title>Videos</title><use xlink:href="#sprite-icon-video"></use></svg>
+        <h2 class="video-title ">Popular Videos</h2>
+      </header>
+      <div class="video-grid grid grid-cols-3 ">
+        <article class="video-item text-center ">
+          <figure class="video-embed ">
+            <div class="video-embed__wrapper">
+              <iframe title="Miracle No Knead Bread" width="500" height="281" src="https://www.youtube.com/embed/5ZAfN5owxJc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+          </figure>
+          <h2 class="video-heading"><a href="https://www.youtube.com/watch?v=5ZAfN5owxJc&amp;ab_channel=PinchofYum">No Knead Bread</a></h2>
+        </article>
+        <article class="video-item text-center ">
+          <figure class="video-embed ">
+            <div class="video-embed__wrapper">
+              <iframe title="The Best Soft Chocolate Chip Cookies" width="500" height="281" src="https://www.youtube.com/embed/JdbGVDYu4mQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+          </figure>
+          <h2 class="video-heading"><a href="https://www.youtube.com/watch?v=JdbGVDYu4mQ&amp;ab_channel=PinchofYum">Best Soft Chocolate Chip Cookies</a></h2>
+        </article>
+        <article class="video-item text-center ">
+          <figure class="video-embed ">
+            <div class="video-embed__wrapper">
+              <iframe title="How to Cook Tofu" width="500" height="281" src="https://www.youtube.com/embed/BHBZccIpm-w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+          </figure>
+          <h2 class="video-heading"><a href="https://www.youtube.com/watch?v=BHBZccIpm-w&amp;ab_channel=PinchofYum">How to Cook Tofu</a></h2>
+        </article>
+      </div>
+    </section>
+
+    <section class="recipe-section">
+      <header class="recipe-header">
+        <i class="fa-solid fa-bowl-rice"></i>
+          <h2 class="recipe-title">VEGETARIAN RECIPES</h2>
+      </header>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Phần tử 1 -->
+        <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/ve1.webp" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/vegetarian-shepherds-pie">Vegetarian Shepherds Pie</a></h2>
+            <p>Vegetarian Shepherd’s Pie ♡ saucy mushrooms, carrots, and peas topped with creamy mashed potatoes. Real food meets comfort food!</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+
+         <!-- Phần tử 2 -->
+         <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/ve2.jpg" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/lo-mein">15 Minute Lo Mein</a></h2>
+            <p>15 Minute Lo Mein! Made with just soy sauce, sesame oil, a pinch of sugar, ramen noodles or spaghetti noodles, and any veggies or protein you like. SO YUMMY!</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+
+         <!-- Phần tử 3 -->
+         <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/ve3.webp" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/mushroom-fettuccine">Mushroom Fettuccine</a></h2>
+            <p>Date Night Mushroom Fettuccine – elegant and luscious and FIVE INGREDIENT EASY</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+         <!-- Phần tử 4 -->
+         <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/ve4.jpg" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/green-curry">5-Ingredient Green Curry</a></h2>
+            <p>Packed with tons of veggies, an easy green curry sauce, and finished with golden raisins and cilantro.</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="recipe-section">
+      <header class="recipe-header">
+        <i class="fa-solid fa-kitchen-set"></i>
+          <h2 class="recipe-title">INSTANT POT RECIPES</h2>
+      </header>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Phần tử 1 -->
+        <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/i1.jpg" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/instant-pot-mac-and-cheese">Instant Pot Mac and Cheese</a></h2>
+            <p>Instant Pot Mac and Cheese – made with 5 real food ingredients. This is SO MUCH BETTER than any mac and cheese I’ve ever had!</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+
+         <!-- Phần tử 2 -->
+         <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/i2.jpg" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/instant-pot-hawaiian-chicken-tacos">Instant Pot Hawaiian Chicken Tacos with Jalapeño Ranch Slaw</a></h2>
+            <p>These Instant Pot Hawaiian Chicken Tacos are out of this WORLD. Juicy pineapple and spiced chicken crisped under the broiler, tucked into tortillas, and rolled up with creamy jalapeño ranch slaw</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+
+         <!-- Phần tử 3 -->
+         <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/i3.jpg" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/instant-pot-red-curry-lentils">Instant Pot Red Curry Lentils</a></h2>
+            <p>Guess what’s for dinner? Creamy, spicy, delicious red curry lentils, made in the Instant Pot.</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+         <!-- Phần tử 4 -->
+         <article class="col-span-1 lg:col-span-3 gap-4 bg-white">
+          <div class="col-span-1">
+            <img src="./anh/i4.webp" alt="">
+          </div>
+          <div class="col-span-2 justify-between recipe-details">
+            <h2 class="mb-2 font-domaine "><a class="text-black" href="https://pinchofyum.com/instant-pot-wild-rice-soup">Instant Pot Wild Rice Soup</a></h2>
+            <p>The BEST Wild Rice Soup – in the Instant Pot! So creamy and simple and ready in an hour. Perfect for fall/winter nights!</p>
+            <a class="btn bg-purple-500 " href="https://pinchofyum.com/the-best-detox-crockpot-lentil-soup">Make This Recipe</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+  <div class="footer-page">
+    <div class="footer-left">
+        <ul>
+            <li class="f1"><p>PINCH OF YUM</p></li>
+            <a href="https://pinchofyum.com/about"><li class="p1"><p>About</p></li></a>
+            <a href="https://pinchofyum.com/blog"><li class="p1"><p>Blog</p></li></a>
+            <a href="https://pinchofyum.com/recipes"><li class="p1"><p>Recipe Index</p></li></a>
+            <a href="https://pinchofyum.com/resources"><li class="p1"><p>Blogging Resources</p></li></a>
+            <a href="https://pinchofyum.com/category/making-money-from-a-food-blog"><li class="p1"><p>Income Reports</p></li></a>
+            <a href="https://pinchofyum.com/sponsored-content"><li class="p1"><p>Sponsored Content</p></li></a>
+            <a href="https://pinchofyum.com/media-mentions"><li class="p1"><p>Media Mentions</p></li></a>
+            <a href="https://pinchofyum.com/contact"><li class="p1"><p>Contact</p></li></a>
+        </ul>
+    </div>
+    <div class="footer-middle">
+        <li class="f1"><p>FOOD & RECIPES</p></li>
+            <a href="https://pinchofyum.com/everything-you-need-to-know-about-sugar-free-january"><li class="p1"><p>Sugar Free January</p></li></a>
+            <a href="https://pinchofyum.com/freezer-meals"><li class="p1"><p>Freezer Meals 101</p></li></a>
+            <a href="https://pinchofyum.com/recipes/quick-and-easy"><li class="p1"><p>Quick and Easy Recipes</p></li></a>
+            <a href="https://pinchofyum.com/recipes/instant-pot"><li class="p1"><p>Instant Pot Recipes</p></li></a>
+            <a href="https://pinchofyum.com/recipes/pasta"><li class="p1"><p>Pasta Recipes</p></li></a>
+            <a href="https://pinchofyum.com/recipes/vegan"><li class="p1"><p>Vegan Recipes</p></li></a>
+            <a href="https://pinchofyum.com/recipes/soup"><li class="p1"><p>Soup Recipes</p></li></a>
+            <a href="https://pinchofyum.com/recipes/taco"><li class="p1"><p>Taco Recipes</p></li></a>
+            <a href="https://pinchofyum.com/recipes/meal-prep"><li class="p1"><p>Meal Prep Recipes</p></li></a>
+    </div>
+    <div class="footer-right">
+        <div class="top">
+            <p>signup</p>
+            <p>FOR EMAIL UPDATES</p>
+        </div>
+        <div class="top2">
+            <p>Get a Free eCookbook with our top 25 recipes.</p>
+        </div>
+        <div class="head-bot-right">
+            <div class="input">
+                <input type="text" placeholder="First Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="button">
+                <button><p>GO</p></button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="end2">
+    <div class="icon">
+        <a href="" class="icon1"><i class="fa-brands fa-instagram"></i></a>
+        <a href="" class="icon1"><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href="" class="icon1"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="" class="icon1"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div class="logo2">
+        <a href="#">
+            <p>Pinch</p>
+            <p>Of</p>
+            <p>Yum</p>
+        </a>
+    </div>
+    <div class="infor1">
+        <p>© 2024 Pinch of Yum. All Rights Reserved.</p>
+    </div>
+    <div class="infor2">
+        <p>A Raptive Partner Site.</p>
+    </div>
+    <div class="brand">
+        <p>OUR OTHER BRANDS</p>
+    </div>
+    <div class="imgbrand">
+        <div class="logo_1">
+            <img src="../images/logo-end.jpg" alt="">
+        </div>
+        <div class="logo_2">
+            <img class="logo_2" src="../images/clariti-logo.svg" alt="">
+        </div>
+    </div>
+</div>
+<div class="last">
+   <a href="https://pinchofyum.com/privacy-policy"><p>Privacy Policy</p></a>
+    <a href="https://pinchofyum.com/terms-of-service"><p>Terms</p></a>
+</div>
+
+  
+  
+  </body>
+</html>

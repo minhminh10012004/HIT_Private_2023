@@ -1,0 +1,779 @@
+/* Thiết lập font chung cho trang web */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Định dạng header */
+header {
+  font-family: "Raleway", sans-serif;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  height: 100px;
+}
+
+/* Định dạng logo trong header */
+header img {
+  max-width: 100%;
+  height: 80px;
+  display: block;
+  margin: 10px 167px;
+}
+
+/* Định dạng thanh điều hướng */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Định dạng menu điều hướng */
+.menu {
+  list-style: none;
+  margin-right: 150px;
+  padding: 5;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.menu li {
+  margin-right: 35px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #ff00f2;
+}
+
+/* Định dạng nút tìm kiếm */
+.search-button {
+  background-color: #ffffff;
+  color: #eb40ee;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+  font-size: 23px;
+  padding-top: 2px;
+}
+
+/* Định dạng nút tìm kiếm khi rê chuột qua */
+.search-button:hover {
+  color: #0056b3;
+}
+
+/* Định dạng phần background màu xám */
+.bg-gray-200 {
+  background-color: rgb(244, 239, 239);
+}
+
+/* Định dạng container chính */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Định dạng hình ảnh trong phần ảnh 1 */
+.image-container {
+  grid-column: span 4;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Định dạng nội dung chữ trong phần ảnh 1 */
+.content {
+  grid-column: span 8;
+}
+
+/* Định dạng phần nội dung chữ */
+h1,
+h3,
+p {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: "Noto Serif", serif;
+  font-size: 3.5rem;
+  color: #800080;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.8rem;
+  color: #999393;
+}
+
+p {
+  font-size: 1.4rem;
+  color: #333;
+}
+/* CSS for removing underline from links */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* CSS for hover effect on links */
+a:hover {
+  text-decoration: underline; /* Optional: Add underline on hover if needed */
+}
+
+/* Định dạng phần "shall we?" với kiểu chữ khác */
+.custom-font {
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #bebcbe;
+}
+
+/* Định dạng phần "Let’s talk food" */
+.talk-food {
+  margin-top: 8px;
+  font-size: 2rem;
+  color: #514f4f;
+}
+
+/* Định dạng phần social-section */
+.social-section {
+  display: flex;
+  align-items: center;
+}
+
+/* Định dạng mỗi liên kết xã hội */
+.social-link {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #800080;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+.social-link:hover {
+  background-color: rgba(128, 0, 128, 0.7);
+}
+/* Common styles */
+.section-white {
+  background-color: #fff;
+  padding: 30px 50px;
+  /* margin-bottom: 0px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Left section styles */
+.section-left {
+  flex: 10;
+}
+
+.social-section {
+  text-align: center;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.font-arvo {
+  font-family: "Arvo", serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.text-text-gray-700 {
+  color: #4a5568;
+}
+
+.social-link {
+  margin: 5px 7px;
+  color: #ced5db;
+}
+
+/* Right section styles */
+.section-right {
+  flex: 7;
+}
+
+.signup-message {
+  text-align: center;
+}
+
+.signup-fields {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.formkit-field {
+  margin-right: 10px;
+}
+
+.formkit-input {
+  width: 330px;
+  height: 50px;
+}
+.formkit-submit-button {
+  background-color: #edb654;
+  color: #fff;
+  font-size: 1 rem;
+  border: none;
+  padding: 18px 26px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formkit-alert-error {
+  color: #ff0000;
+}
+.bg-gray-200-PI {
+  background-color: #eee;
+}
+/* CSS for Search Section */
+.search-section {
+  background-color: #734060;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+
+/* CSS for Section Title */
+.section-title {
+  margin-bottom: 3px;
+  text-align: center;
+  color: #fff;
+}
+
+/* CSS for Search Form */
+.search-form {
+  max-width: 2xl;
+  margin: auto;
+  margin-bottom: 2px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CSS for Search Icon */
+.search-icon {
+  width: 20px;
+  height: 50px;
+  fill: #fff;
+}
+
+/* CSS for Search Input */
+.search-input {
+  width: 50%;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 20px;
+  font-size: 1rem;
+}
+
+.hidden {
+  padding: 15px;
+  cursor: pointer;
+}
+/* CSS for Search Hint */
+.search-hint {
+  height: 50px;
+  margin-top: 4px;
+  text-align: center;
+  color: #c6c1ba;
+  font-style: italic;
+  text-transform: lowercase;
+  font-size: 2rem;
+}
+.recipe-section {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.recipe-header {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 5px;
+  transform: translateY(-50%);
+}
+.fa-solid,
+.fas {
+  font-weight: 900;
+
+  font-size: xx-large;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  fill: #ffcc00; /* yellow color */
+}
+
+/* CSS for Grid Container */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* CSS for each Article */
+article {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* CSS for Article Image */
+article img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CSS for Article Details */
+.recipe-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* CSS for Article Header */
+.recipe-header {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+  transform: translateY(-50%);
+}
+
+/* CSS for Recipe Title */
+.recipe-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: "Sans-serif";
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #800080;
+}
+
+/* CSS for Recipe Description */
+.recipe-details .description {
+  color: #333;
+}
+
+/* CSS for Recipe Link Button */
+.recipe-details .btn {
+  background-color: #800080;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 80px;
+  font-size: 15px;
+  cursor: pointer;
+  max-width: 150px;
+  text-align: center;
+}
+
+/* Additional styles for responsive design */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  article {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.video-section {
+  padding: 2rem; /* Điều chỉnh khoảng cách giữa nội dung và viền ngoài của section */
+}
+
+.video-header {
+  max-width: 60rem; /* Đặt chiều rộng tối đa cho header */
+  margin: 0 auto; /* Căn giữa header */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem; /* Khoảng cách giữa header và video-grid */
+}
+
+.video-icon {
+  fill: #ffd700; /* Màu sắc cho biểu tượng video */
+  width: 2rem; /* Kích thước của biểu tượng video */
+  height: 2rem;
+  margin-right: 0.5rem; /* Khoảng cách giữa biểu tượng và tiêu đề */
+}
+
+.video-title {
+  font-family: "Sans-serif"; /* Lựa chọn font chữ cho tiêu đề */
+  font-size: 1.5rem; /* Kích thước chữ cho tiêu đề */
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #800080;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+.video-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-embed__wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* Tỉ lệ khung hình 16:9 */
+  flex: 1; /* Ở đây, chúng ta đặt video để chiếm hết không gian theo chiều dọc của video-item */
+}
+
+.video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-heading {
+  font-family: "Domaine"; /* Lựa chọn font chữ cho tiêu đề article */
+  font-size: 1.25rem; /* Kích thước chữ cho tiêu đề article */
+  margin-top: 1rem; /* Khoảng cách giữa video và tiêu đề article */
+  color: #333; /* Màu sắc cho tiêu đề article */
+  text-decoration: none; /* Bỏ gạch chân ở liên kết */
+  display: inline-block;
+  text-align: center;
+}
+
+.video-heading:hover {
+  text-decoration: underline; /* Hiệu ứng gạch chân khi di chuột qua */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pinyon+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@600&family=Bungee+Spice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+.footer-page {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  background-color: transparent;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.footer-right {
+  height: 160px;
+  background-color: rgba(114, 63, 95, 0.9);
+  padding: 20px;
+  position: relative;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.top2 {
+  position: absolute;
+  top: 50px;
+  left: 165px;
+}
+
+.top p {
+  padding: 5px;
+}
+
+.top p:nth-child(1) {
+  margin-top: -20px;
+  font-family: "Allura", cursive;
+  font-size: 50px;
+}
+
+.top p:nth-child(2) {
+  font-family: "Alegreya", serif;
+  font-size: 23px;
+}
+
+.top2 p {
+  font-family: "Alegreya", serif;
+  font-size: 20px;
+}
+
+.footer-right .head-bot-right {
+  padding: 30px;
+}
+
+.footer-left li,
+.footer-middle li {
+  display: flex;
+  margin: 10px;
+  letter-spacing: 1px;
+}
+
+.footer-left p,
+.footer-middle p {
+  font-family: "Noto Serif", serif;
+  font-size: 12px;
+  color: rgba(164, 158, 164, 0.9);
+  font-weight: bold;
+}
+
+.f1 p {
+  color: #292424;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+}
+
+.p1:hover p {
+  cursor: pointer;
+  color: rgba(142, 89, 142, 0.9);
+}
+
+.end2 {
+  width: 100%;
+  height: 120px;
+  display: flex;
+}
+
+.end2 .icon {
+  height: 50px;
+  position: relative;
+  display: flex;
+  color: rgb(238, 233, 237);
+  background-color: transparent;
+}
+
+.end2 a:nth-child(1) {
+  padding-left: 150px;
+}
+
+.end2 i {
+  margin: 33% 33%;
+}
+
+.end2 > p {
+  font-family: "Pinyon Script", cursive;
+  font-size: 35px;
+  padding: 0 20px;
+  color: rgb(122, 2, 88);
+}
+
+.end2 .icon i {
+  padding: 7px 10px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 5px;
+  background-color: rgba(114, 63, 95, 0.9);
+  color: white;
+}
+
+.end2 .icon1:hover i {
+  background-color: #686868;
+}
+
+.logo2 {
+  margin-left: -350px;
+}
+
+.logo2 a {
+  display: flex;
+  text-decoration: none;
+  padding: 60px;
+}
+
+.logo2 p {
+  padding: 6px;
+  font-size: 30px;
+}
+
+.logo2 p:nth-child(1),
+.logo2 p:nth-child(3) {
+  color: rgb(161, 28, 123);
+  font-family: "Noto Serif", serif;
+}
+
+.logo2 p:nth-child(2) {
+  margin-top: 9px;
+  color: gray;
+  font-family: "Pinyon Script", cursive;
+}
+
+.infor1 {
+  display: flex;
+  width: 500px;
+  height: 50px;
+  margin-top: 70px;
+  margin-left: -30px;
+}
+
+.infor2 {
+  display: flex;
+  margin-top: 90px;
+  margin-left: -500px;
+}
+
+.infor1 p {
+  font-size: 13px;
+  font-family: "Alegreya", serif;
+  color: #515151;
+}
+
+.infor2 p {
+  font-size: 13px;
+  font-family: "Alegreya", serif;
+  color: #515151;
+}
+
+.brand {
+  display: flex;
+  margin-top: -90px;
+  margin-left: 450px;
+  background-color: transparent;
+  height: 20px;
+  font-family: "Alegreya", serif;
+}
+
+.brand p {
+  color: rgb(69, 63, 63);
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.imgbrand {
+  margin-top: -40px;
+}
+
+.imgbrand .logo_1 img {
+  width: 70px;
+  height: 50px;
+  margin-left: -200px;
+}
+
+.imgbrand .logo_2 img {
+  width: 120px;
+  height: 250px;
+  margin-top: -160px;
+  margin-left: -100px;
+}
+
+.footer-right .head-bot-right {
+  width: 480px;
+  height: 150px;
+}
+
+.footer-right .head-bot-right input {
+  margin-top: -15px;
+  width: 180px;
+  height: 45px;
+}
+
+.footer-right .head-bot-right button {
+  margin-left: 2px;
+  width: 50px;
+  height: 45px;
+  margin-top: -15px;
+  background-color: rgb(255, 203, 107);
+  font-family: "Alegreya", serif;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-right input::placeholder {
+  font-family: "Alegreya", serif;
+  font-size: 15px;
+}
+
+.footer-right input {
+  font-size: 15px;
+}
+
+.footer-right .top p:nth-child(1) {
+  margin-top: -20px;
+  font-family: "Allura", cursive;
+  font-size: 40px;
+}
+
+.footer-right .top p:nth-child(2) {
+  margin-top: -6px;
+  font-family: "Alegreya", serif;
+  font-size: 18px;
+}
+
+.footer-right .top p {
+  color: aliceblue;
+}
+
+.footer-right .top2 p {
+  font-size: 15px;
+  margin-left: -40px;
+  margin-top: -6px;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+}
+
+.last p {
+  font-family: "Alegreya", serif;
+  color: #686868;
+  padding: 0 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.last:hover p {
+  color: rgba(114, 63, 95, 0.9);
+}
